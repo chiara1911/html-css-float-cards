@@ -15,22 +15,27 @@ h1{
     color: pink;
     text-align: center;
 }
-p{
+p, h2{
     margin-top: 60px;
+    clear: both;
+  
 }
 img{
     object-fit: contain;
     width: 100px;
     height: 100px;
     float: left;
+    position: absolute;
 }
 .scheda{
     border: solid red 5px;
+    float: left;
+   
 }
 .schede{
-    /* border: solid red 5px; */
-    margin-top: 50px;
-    float: left;
+  margin-top: 50px;
+  width: calc(100% / 3);
+  border: solid blue 5 px;
     
     /* box-shadow: 0 5px 5px 5px rgba(255, 255, 255, 0.7); */
 }
@@ -39,7 +44,7 @@ img{
   
     background-color: black;
     color: white;
-    /* border: solid red; */
+   
     
 }
 
@@ -47,4 +52,5 @@ img{
     content: "";
     display: table;
     clear: both;
+    width: calc(100% / 3);
 }
