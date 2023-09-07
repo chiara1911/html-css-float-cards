@@ -15,29 +15,25 @@ h1{
     text-align: center;
     
 }
-.clearfix::after{
+.clearfix,.scheda1::after{
     content: "";
     display: table;
     clear: both;
-    
 }
 .wrapper{
-    /* margin: 0 auto;   */
     background-color: black;
     color: white;
+    margin: 20px;
 }
     
 
-p, h2{
-   margin-top: 20px;
-    clear: both;
-}
+
 img{
     object-fit: contain;
     width: 100px;
     height: 100px;
     float: left;
-    position: absolute;
+   
 }
 .scheda1{
     border: solid red 5px;
