@@ -11,10 +11,21 @@ body{
 
 h1{
     font-weight: 300px;
-    color: pink;
+    color: #E53170;
     text-align: center;
 }
 
+.scheda:hover{
+    cursor: pointer;
+}
+
+a{
+    color: aqua;
+}
+
+a:hover{
+    color: green;
+}
 main{
     margin: 60px 131px;
 }
