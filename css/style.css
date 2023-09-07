@@ -10,15 +10,21 @@ body{
     width: 1200px;
 }
 h1{
-    
     font-weight: 300px;
     color: pink;
     text-align: center;
+    
 }
+.wrapper{
+    margin: 0 auto;  
+    background-color: black;
+    color: white;
+}
+    
+
 p, h2{
     margin-top: 60px;
     clear: both;
-  
 }
 img{
     object-fit: contain;
@@ -27,30 +33,25 @@ img{
     float: left;
     position: absolute;
 }
-.scheda{
+.scheda1{
     border: solid red 5px;
     float: left;
+    width: calc(100% / 3)
    
 }
 .schede{
   margin-top: 50px;
-  width: calc(100% / 3);
+ ;
   border: solid blue 5 px;
     
     /* box-shadow: 0 5px 5px 5px rgba(255, 255, 255, 0.7); */
 }
 
-.contenitore{
-  
-    background-color: black;
-    color: white;
-   
-    
-}
 
-.contenitore::after{
+
+.clearfix::after{
     content: "";
     display: table;
     clear: both;
-    width: calc(100% / 3);
+    
 }
