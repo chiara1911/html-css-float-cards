@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Fredoka', sans-serif;
+    margin: 30px;
+    background-color: green;
+    width: 1200px;
+}
+h1{
+    
+    font-weight: 300px;
+    color: pink;
+    text-align: center;
+}
+p{
+    margin-top: 60px;
+}
+img{
+    object-fit: contain;
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+.scheda{
+    border: solid red 5px;
+}
+.schede{
+    /* border: solid red 5px; */
+    margin-top: 50px;
+    float: left;
+    
+    /* box-shadow: 0 5px 5px 5px rgba(255, 255, 255, 0.7); */
+}
+
+.contenitore{
+  
+    background-color: black;
+    color: white;
+    /* border: solid red; */
+    
+}
+
+.contenitore::after{
+    content: "";
+    display: table;
+    clear: both;
+}
