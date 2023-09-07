@@ -7,15 +7,14 @@ body{
     font-family: 'Fredoka', sans-serif;
     margin: 30px;
     background-color: green;
-    
 }
 h1{
     font-weight: 300px;
     color: pink;
     text-align: center;
-    
 }
-.clearfix,.scheda1::after{
+
+.clearfix, .scheda::after{
     content: "";
     display: table;
     clear: both;
@@ -25,22 +24,17 @@ h1{
     color: white;
     margin: 20px;
 }
-    
-
-
 img{
     object-fit: contain;
     width: 100px;
     height: 100px;
     float: left;
-   
 }
-.scheda1{
+.scheda{
     border: solid red 5px;
-     width: calc(100% / 3)
-   
+    width: calc(100% / 3);
 }
-.schede{
+.content{
   margin-top: 50px;
   border: solid blue 5 px;
   width: 1200px;
